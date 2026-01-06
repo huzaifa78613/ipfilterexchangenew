@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn how to use IP Filter Exchange Chrome extension - Complete guide with step-by-step instructions for connecting to proxy servers. ">
+    <meta name="keywords" content="proxy guide, how to use proxy, IP filter tutorial, proxy connection, proxy setup">
+    <meta name="author" content="IP Filter Exchange">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og: title" content="How to Use IP Filter Exchange">
+    <meta property="og: description" content="Complete guide with step-by-step instructions for using IP Filter Exchange">
+    <meta property="og: type" content="website">
+    
+    <title>How to Use - IP Filter Exchange</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="index.html">IP Filter Exchange</a>
+                </div>
+                <button class="mobile-toggle" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="how-to-use.html" class="active">How to Use</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>How to Use IP Filter Exchange</h1>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content-section">
+        <div class="container">
+            <div class="guide-content">
+                
+                <!-- Section 1 -->
+                <div class="guide-section">
+                    <h2>Quick Start</h2>
+                    <ol>
+                        <li>Paste your proxy in the text box</li>
+                        <li>Click "Parse & Apply" to fill fields automatically</li>
+                        <li>Click "Connect" button</li>
+                        <li>Wait 3-5 seconds for connection to establish</li>
+                    </ol>
+                </div>
+
+                <!-- Section 2 -->
+                <div class="guide-section">
+                    <h2>Proxy Format</h2>
+                    <p>Format: <code>hostname:port: username:password</code></p>
+                    <p>Example: </p>
+                    <div class="code-block">
+                        <code>proxy.example.com:8080:user123:pass456</code>
+                    </div>
+                </div>
+
+                <!-- Section 3 -->
+                <div class="guide-section">
+                    <h2>Manual Entry</h2>
+                    <p>If you prefer, you can enter proxy details manually in the four fields below the text box: </p>
+                    <ul>
+                        <li><strong>Hostname:</strong> The proxy server address</li>
+                        <li><strong>Port:</strong> The proxy server port number</li>
+                        <li><strong>Username:</strong> Your proxy username</li>
+                        <li><strong>Password:</strong> Your proxy password</li>
+                    </ul>
+                </div>
+
+                <!-- Section 4 -->
+                <div class="guide-section">
+                    <h2>Connection Status</h2>
+                    <p>When successfully connected, you will see:</p>
+                    <ul>
+                        <li>Your proxy IP address</li>
+                        <li>Detected timezone</li>
+                        <li>Location information (if available)</li>
+                        <li>Button changes to "Disconnect"</li>
+                    </ul>
+                </div>
+
+                <!-- Section 5 -->
+                <div class="guide-section">
+                    <h2>Proxy Type (Settings)</h2>
+                    <p>Choose the appropriate proxy type for your connection:</p>
+                    <ul>
+                        <li><strong>HTTP: </strong> Most common, works with most proxies (Default)</li>
+                        <li><strong>HTTPS:</strong> Encrypted HTTP proxy connection</li>
+                        <li><strong>SOCKS5:</strong> Advanced protocol with better performance</li>
+                    </ul>
+                </div>
+
+                <!-- Section 6 -->
+                <div class="guide-section">
+                    <h2>Timezone Setting</h2>
+                    <p>Control how your browser timezone is handled:</p>
+                    <ul>
+                        <li><strong>Based on Proxy (Recommended):</strong> Automatically matches browser timezone to proxy location for better privacy</li>
+                        <li><strong>Real Timezone:</strong> Uses your actual system timezone</li>
+                    </ul>
+                </div>
+
+                <!-- Section 7 -->
+                <div class="guide-section">
+                    <h2>WebRTC Protection</h2>
+                    <p>Protect against IP leaks: </p>
+                    <ul>
+                        <li><strong>Disabled (Recommended):</strong> Blocks WebRTC to prevent your real IP from leaking</li>
+                        <li><strong>Enabled:</strong> Allows WebRTC (may leak your real IP through browser features)</li>
+                    </ul>
+                </div>
+
+                <!-- Section 8 -->
+                <div class="guide-section">
+                    <h2>Switching Proxies</h2>
+                    <p>To switch to a different proxy:</p>
+                    <ol>
+                        <li>Click "Disconnect" if currently connected</li>
+                        <li>Paste or enter the new proxy details</li>
+                        <li>Click "Connect"</li>
+                        <li>The old connection will be automatically cleared</li>
+                    </ol>
+                </div>
+
+                <!-- Section 9 -->
+                <div class="guide-section">
+                    <h2>Clear Cache & Data</h2>
+                    <p>If your proxy keeps repeating or not connecting to new proxies properly:</p>
+                    <ol>
+                        <li>Go to Settings (gear icon)</li>
+                        <li>Scroll to "Clear Cache & Data" section</li>
+                        <li>Click "Clear All Cache & Data" button</li>
+                        <li>This removes all cached connections, cookies, local storage, and service workers</li>
+                        <li>Allows you to connect to different proxies without interference</li>
+                    </ol>
+                </div>
+
+                <!-- Section 10 -->
+                <div class="guide-section">
+                    <h2>Troubleshooting</h2>
+                    <ul>
+                        <li><strong>Connection Failed:</strong> Verify proxy credentials and try again</li>
+                        <li><strong>Repeated Proxy: </strong> Use "Clear All Cache" in Settings</li>
+                        <li><strong>Slow Connection:</strong> Try a different proxy type or server</li>
+                        <li><strong>IP Leak:</strong> Ensure WebRTC Protection is set to "Disabled"</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>IP Filter Exchange</h3>
+                    <p>Safe, Secure, Private & Free</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="how-to-use.html">How to Use</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <p>Email: <a href="mailto:thisishuxaifa@gmail.com">thisishuxaifa@gmail.com</a></p>
+                    <p>Microsoft Teams: live:. cid.70e3d51a12679409</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 IP Filter Exchange. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="script. js"></script>
+</body>
+</html>
